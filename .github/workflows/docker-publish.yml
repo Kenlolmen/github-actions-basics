@@ -27,4 +27,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: ghcr.io/${{ github.repository }}/app:latest
+          tags: ghcr.io/kenlolmen/github-actions-basics/app:latest
