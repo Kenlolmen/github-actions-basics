@@ -1,0 +1,14 @@
+name: end-to-end-challange
+
+on: push
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: install
+        run: npm install
+
+      - name: test
+        run: npm test
