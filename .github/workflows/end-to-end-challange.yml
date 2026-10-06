@@ -2,8 +2,6 @@ name: end-to-end-challange
 
 on: push
 
-permissions: read
-
 jobs:
   ci:
     runs-on: ubuntu-latest
